@@ -1,0 +1,132 @@
+<footer class="nova-footer text-light pt-5 pb-4">
+  <div class="container">
+
+    <div class="row g-4">
+
+      <!-- Brand -->
+      <div class="col-md-4 col-lg-3">
+        <h4 class="fw-bold text-gradient mb-3">NovaUI</h4>
+        <p class="opacity-75">
+          A sleek modern toolkit crafted for smooth workflow and smart results.
+        </p>
+
+        <div class="d-flex gap-3 mt-3">
+          <a href="#" class="footer-social"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="footer-social"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="footer-social"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="footer-social"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+
+      <!-- Explore -->
+      <div class="col-md-2 col-lg-2">
+        <h6 class="footer-heading mb-3">Explore</h6>
+        <p><a href="#" class="footer-link">Dashboard</a></p>
+        <p><a href="#" class="footer-link">Templates</a></p>
+        <p><a href="#" class="footer-link">Components</a></p>
+        <p><a href="#" class="footer-link">Updates</a></p>
+      </div>
+
+      <!-- Resources -->
+      <div class="col-md-3 col-lg-3">
+        <h6 class="footer-heading mb-3">Resources</h6>
+        <p><a href="#" class="footer-link">Documentation</a></p>
+        <p><a href="#" class="footer-link">Tutorials</a></p>
+        <p><a href="#" class="footer-link">API Reference</a></p>
+        <p><a href="#" class="footer-link">Community</a></p>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 col-lg-4">
+        <h6 class="footer-heading mb-3">Contact</h6>
+        <p class="footer-contact">
+          <i class="bi bi-geo-alt-fill me-2"></i>
+          Sector-21, Alpha Tower, India
+        </p>
+        <p class="footer-contact">
+          <i class="bi bi-envelope-fill me-2"></i>
+          support@novaui.com
+        </p>
+        <p class="footer-contact">
+          <i class="bi bi-telephone-fill me-2"></i>
+          +91 00000 00420
+        </p>
+      </div>
+
+    </div>
+
+    <hr class="my-4 separator">
+
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p class="small opacity-75 mb-0">
+          © <%= new Date().getFullYear() %> NovaUI — Crafted with passion ✨
+        </p>
+      </div>
+      <div class="col-md-6 text-md-end mt-3 mt-md-0">
+        <a href="#" class="footer-link me-3">Privacy</a>
+        <a href="#" class="footer-link me-3">Terms</a>
+        <a href="#" class="footer-link">Licensing</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<style>
+  .nova-footer {
+    background: #0b0f19;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+
+  /* NovaUI Gradient Title */
+  .text-gradient {
+    background: linear-gradient(45deg, #4f46e5, #06b6d4, #a855f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Section Heading */
+  .footer-heading {
+    color: #67e8f9;       
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+
+  /* Social Icon */
+  .footer-social {
+    color: #ffffffcc;
+    font-size: 1.3rem;
+    transition: 0.3s;
+  }
+  .footer-social:hover {
+    color: #06b6d4;
+    transform: translateY(-4px) scale(1.15);
+  }
+
+  /* Footer Links */
+  .footer-link {
+    color: #ffffffb3;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  .footer-link:hover {
+    color: #4f46e5;
+    padding-left: 5px;
+  }
+
+  /* Contact Text */
+  .footer-contact {
+    color: #ffffffb3;
+    transition: 0.3s ease;
+  }
+  .footer-contact:hover {
+    color: #a855f7;
+    transform: translateX(6px);
+  }
+
+  /* Divider */
+  .separator {
+    border-color: rgba(255,255,255,0.12);
+  }
+</style>

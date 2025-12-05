@@ -1,0 +1,78 @@
+<%- include('../layout/headSection')-%>
+<%- include('../layout/header')-%>
+
+<section class="py-5 bg-white">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-3 text-primary">Latest <span class="text-gradient">Articles</span></h2>
+    <p class="text-muted mb-5">Fresh stories, tech breakdowns, and trending innovations.</p>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="blog-card shadow-sm rounded-4 overflow-hidden bg-light border-0">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1000" class="img-fluid" />
+          <div class="p-4 text-start">
+            <h5 class="fw-bold mt-2 text-dark">The Future of Smart Automation</h5>
+            <p class="text-muted small">AI-driven workflows transforming modern businesses.</p>
+            <a href="#" class="read-btn">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="blog-card shadow-sm rounded-4 overflow-hidden bg-light border-0">
+          <img src="https://images.unsplash.com/photo-1522199710521-72d69614c702?w=1000" class="img-fluid" />
+          <div class="p-4 text-start">
+            <h5 class="fw-bold mt-2 text-dark">Design That Speaks Simplicity</h5>
+            <p class="text-muted small">Minimal UI principles for modern digital products.</p>
+            <a href="#" class="read-btn">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="blog-card shadow-sm rounded-4 overflow-hidden bg-light border-0">
+          <img src="https://d2ms8rpfqc4h24.cloudfront.net/10_sustainable_technology_c04427176e.jpg" class="img-fluid" />
+          <div class="p-4 text-start">
+            <h5 class="fw-bold mt-2 text-dark">Tech Trends You Should Watch</h5>
+            <p class="text-muted small">A quick peek into emerging tools & frameworks.</p>
+            <a href="#" class="read-btn">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .text-gradient {
+    background: linear-gradient(45deg, #6366f1, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .blog-card {
+    transition: all .35s ease;
+  }
+  .blog-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 45px rgba(0,0,0,0.18);
+  }
+  .blog-card img {
+    transition: transform .45s ease;
+  }
+  .blog-card:hover img {
+    transform: scale(1.08);
+  }
+  .read-btn {
+    font-weight: 600;
+    text-decoration: none;
+    color: #6d28d9;
+    transition: color .3s ease;
+  }
+  .read-btn:hover {
+    color: #4c1d95;
+  }
+</style>
+
+<%- include('../layout/footer')-%>

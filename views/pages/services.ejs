@@ -1,0 +1,76 @@
+<%- include('../layout/headSection')-%>
+<%- include('../layout/header')-%>
+
+<section class="py-5 bg-white">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-3 text-primary">Our <span class="text-gradient">Services</span></h2>
+    <p class="text-muted mb-5">Premium solutions built to help your business scale faster.</p>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="p-4 bg-light shadow-sm rounded-4 service-card">
+          <div class="icon-box mb-3">
+            <i class="bi bi-speedometer2 fs-1 text-gradient"></i>
+          </div>
+          <h5 class="fw-bold text-dark">Ultra Fast Performance</h5>
+          <p class="text-muted small mt-2">
+            Optimized systems designed for speed, stability, and high scalability.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="p-4 bg-light shadow-sm rounded-4 service-card">
+          <div class="icon-box mb-3">
+            <i class="bi bi-shield-check fs-1 text-gradient"></i>
+          </div>
+          <h5 class="fw-bold text-dark">Enterprise-Level Security</h5>
+          <p class="text-muted small mt-2">
+            Secure architecture with encrypted workflows & multi-layer protection.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="p-4 bg-light shadow-sm rounded-4 service-card">
+          <div class="icon-box mb-3">
+            <i class="bi bi-code-slash fs-1 text-gradient"></i>
+          </div>
+          <h5 class="fw-bold text-dark">Custom App Development</h5>
+          <p class="text-muted small mt-2">
+            Tailored applications built to match your vision & business strategy.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .text-gradient {
+    background: linear-gradient(45deg, #6366f1, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .service-card {
+    transition: all .35s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 45px rgba(0,0,0,.15);
+  }
+
+  .icon-box i {
+    transition: transform .35s ease;
+  }
+
+  .service-card:hover .icon-box i {
+    transform: scale(1.15);
+  }
+</style>
+
+<%- include('../layout/footer')-%>

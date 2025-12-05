@@ -1,0 +1,69 @@
+<%- include('../layout/headSection')-%>
+<%- include('../layout/header')-%>
+
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-3 text-primary">Plans & Pricing</h2>
+    <p class="text-secondary mb-5">Simple, transparent pricing crafted for all types of teams.</p>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="p-4 rounded-4 shadow-sm bg-white pricing-box h-100">
+          <h5 class="fw-bold text-dark">Starter</h5>
+          <h2 class="fw-bold mt-3 text-primary">$15<span class="fs-6 text-secondary">/mo</span></h2>
+          <ul class="list-unstyled mt-3 text-secondary">
+            <li>✔ Basic tools</li>
+            <li>✔ Standard support</li>
+            <li>✔ Single user access</li>
+          </ul>
+          <button class="btn btn-outline-primary mt-3 px-4">Select</button>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="p-4 rounded-4 shadow-lg bg-primary text-white pricing-box featured h-100">
+          <h5 class="fw-bold">Premium</h5>
+          <h2 class="fw-bold mt-3 text-white">$39<span class="fs-6 text-white-50">/mo</span></h2>
+          <ul class="list-unstyled mt-3">
+            <li>✔ All Starter features</li>
+            <li>✔ Faster support response</li>
+            <li>✔ Up to 10 users</li>
+          </ul>
+          <button class="btn btn-light mt-3 px-4">Choose Plan</button>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="p-4 rounded-4 shadow-sm bg-white pricing-box h-100">
+          <h5 class="fw-bold text-dark">Ultimate</h5>
+          <h2 class="fw-bold mt-3 text-primary">$89<span class="fs-6 text-secondary">/mo</span></h2>
+          <ul class="list-unstyled mt-3 text-secondary">
+            <li>✔ Unlimited access</li>
+            <li>✔ Dedicated manager</li>
+            <li>✔ Unlimited team size</li>
+          </ul>
+          <button class="btn btn-outline-primary mt-3 px-4">Contact Sales</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+.pricing-box {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+.pricing-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+.featured {
+  transform: scale(1.05);
+}
+</style>
+
+<%- include('../layout/footer')-%>
