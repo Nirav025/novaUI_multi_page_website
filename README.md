@@ -6,7 +6,7 @@ The website includes pages such as **Home**, **About**, **Pricing**, **Blog**, a
 
 ---
 
-## 📄 Features  
+# 📄 Features  
 
 * 🏠 **Multi-Page Layout** — Home, About, Pricing, Blog, Services  
 * 🎨 **NovaUI Modern Theme** — Clean, gradient colors with hover animations  
@@ -18,7 +18,7 @@ The website includes pages such as **Home**, **About**, **Pricing**, **Blog**, a
 
 ---
 
-## 🛠️ Tech Stack  
+# 🛠️ Tech Stack  
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="40" height="40"/>  
@@ -43,7 +43,7 @@ The website includes pages such as **Home**, **About**, **Pricing**, **Blog**, a
 
 ---
 
-## 📸 Project Preview  
+# 📸 Project Preview  
 
 ### 🏠 Home Page  
 <img src="./images/ejs_home.png" alt="Home Page"/>
@@ -62,7 +62,7 @@ The website includes pages such as **Home**, **About**, **Pricing**, **Blog**, a
 
 ---
 
-## ⚙️ How It Works  
+# ⚙️ How It Works  
 
 1. The **Node.js server** runs and serves EJS templates for each route.  
 2. The **header and footer** are dynamically included on all pages via EJS partials.  
