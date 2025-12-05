@@ -46,19 +46,19 @@ The website includes pages such as **Home**, **About**, **Pricing**, **Blog**, a
 ## 📸 Project Preview  
 
 ### 🏠 Home Page  
-<img src="./images/ejs_home.png" alt="Home Page" width="600"/>
+<img src="./images/ejs_home.png" alt="Home Page"/>
 
 ### ℹ️ About Page  
-<img src="./images/ejs_about.png" alt="About Page" width="600"/>
+<img src="./images/ejs_about.png" alt="About Page" />
 
 ### 💰 Pricing Page  
-<img src="./images/ejs_pricing.png" alt="Pricing Page" width="600"/>
+<img src="./images/ejs_pricing.png" alt="Pricing Page" />
 
 ### 📝 Blog Page  
-<img src="./images/ejs_blog.png" alt="Blog Page" width="600"/>
+<img src="./images/ejs_blog.png" alt="Blog Page" />
 
 ### 🛠 Services Page  
-<img src="./images/ejs_services.png" alt="Services Page" width="600"/>
+<img src="./images/ejs_services.png" alt="Services Page" />
 
 ---
 
@@ -71,6 +71,4 @@ The website includes pages such as **Home**, **About**, **Pricing**, **Blog**, a
 5. **NovaUI theme** applied: gradient headers, hover animations, and vibrant accents.  
 
 ---
-
-## 📁 Folder Structure  
 
